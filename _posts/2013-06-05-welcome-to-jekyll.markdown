@@ -10,7 +10,10 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
-![My helpful screenshot](/assets/photo/screenshot.png =100x100)
+
+You could just use some HTML in your Markdown:
+
+<img src="/assets/photo/screenshot.png" alt="drawing" width="200"/>
 
 {% highlight ruby %}
 def print_hi(name)
