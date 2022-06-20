@@ -141,12 +141,12 @@ h3 {
 }
 
 #sidebar {
-        padding-top: 40px;
+        
 	position: absolute;
 	text-align: right;
-	width: 100px;
+	width: 160px;
 	top: 0;
-	left: -400px;
+	left: -240px;
 }
 
 #sidebar li {
