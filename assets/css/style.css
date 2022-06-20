@@ -127,7 +127,7 @@ h3 {
 }
 
 #footer {
-	width: 500px;
+	width: 700px;
 	margin: 50px auto 20px auto;
 	padding-top: 10px;
 	font-size: 0.85em;
@@ -142,9 +142,9 @@ h3 {
 #sidebar {
 	position: absolute;
 	text-align: right;
-	width: 200px;
+	width: 80px;
 	top: 0;
-	left: -300px;
+	left: -70px;
 }
 
 #sidebar li {
