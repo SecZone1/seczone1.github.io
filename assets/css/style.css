@@ -142,9 +142,9 @@ h3 {
 #sidebar {
 	position: absolute;
 	text-align: right;
-	width: 100px;
+	width: 200px;
 	top: 0;
-	left: -50px;
+	left: -300px;
 }
 
 #sidebar li {
