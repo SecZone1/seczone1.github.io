@@ -135,16 +135,18 @@ h3 {
 }
 
 #content {
+	margin-left: 150px;
 	width: 900px;
 	margin: auto;
 }
 
 #sidebar {
+        padding-top: 40px;
 	position: absolute;
 	text-align: right;
-	width: 80px;
+	width: 150px;
 	top: 0;
-	left: -70px;
+	left: 0;
 }
 
 #sidebar li {
