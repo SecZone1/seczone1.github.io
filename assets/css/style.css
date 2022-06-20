@@ -144,9 +144,9 @@ h3 {
         padding-top: 40px;
 	position: absolute;
 	text-align: right;
-	width: 150px;
+	width: 100px;
 	top: 0;
-	left: 0;
+	left: -400px;
 }
 
 #sidebar li {
