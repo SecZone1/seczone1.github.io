@@ -5,12 +5,12 @@ title: AD
 
 <div id="blog-AD">
 
-	{% for ad in site.posts %}
+	{% for ad in site.ad %}
 		<article class="ad">
 			{% if ad.external-url %}
 				<h1>
-					<a href="{{ ad.external-url }}">{{ post.title }}</a> 
-					<a class="anchor" href="{{ ad.url }}"><i class="icon-anchor"></i></a>
+					<a href="{{ ad.external-url }}">{{ ad.title }}</a> 
+					<a class="anchor" href="{{ ad.url }}"></a>
 				</h1>
 			{% else %}
 				<h1><a href="{{ ad.url }}">{{ ad.title }}</a></h1>
