@@ -31,62 +31,46 @@ The **/** in the instruction above refers to the _root_ directory. The root d
 From top to bottom, the directories you are seeing are as follows.
 
 - **/ (root filesystem)**
-
 The root filesystem is the top-level directory of the filesystem. It must contain all of the files required to boot the Linux system before other filesystems are mounted. It must include all of the required executables and libraries required to boot the remaining filesystems. After the system is booted, all other filesystems are mounted on standard, well-defined mount points as subdirectories of the root filesystem.
 
 - **/bin**
-
 /bin is the directory that contains binaries, that is, some of the applications and programs you can run. You will find the _ls_ program mentioned above in this directory, as well as other basic tools for making and removing files and directories, moving them around, and so on.
 
 - **/boot**
-
 /boot directory contains files required for starting your system. **DO NOT TOUCH!**. If you mess up one of the files in here, you may not be able to run your Linux and it is a pain to repair
 
 - **/dev**
-
 /dev contains device files. Many of these are generated at boot time or even on the fly. For example, if you plug in a new webcam or a USB pendrive into your machine, a new device entry will automagically pop up here.
 
 - **/etc**
-
 /etc is the directory where names start to get confusing. /etc gets its name from the earliest Unixes and it was literally “et cetera” because it was the dumping ground for system files administrators were not sure where else to put.
 
 - **/home**
-
 /home is where you will find your users’ personal directories. In my case, under /home there are two directories: /home/kali, which contains all my stuff; and /home/guest, in case anybody needs to borrow my computer.
 
 - **/lib**
-
 Contains shared library files that are required to boot the system.
 
 - **/media**
-
 A place to mount external removable media devices such as USB thumb drives that may be connected to the host.
 
 - **/mnt**
-
 A temporary mountpoint for regular filesystems (as in not removable media) that can be used while the administrator is repairing or working on a filesystem.
 
 - **/opt**
-
 Optional files such as vendor supplied application programs should be located here.
 
 - **/root**
-
 This is not the root (/) filesystem. It is the home directory for the root user.
 
 - **/sbin**
-
 System binary files. These are executables used for system administration.
 
 - **/tmp**
-
 Temporary directory. Used by the operating system and many programs to store temporary files. Users may also store files here temporarily. Note that files stored here may be deleted at any time without prior notice.
 
 - **/usr**
-
 These are shareable, read-only files, including executable binaries and libraries, man files, and other types of documentation.
 
 - **/var**
-
 Variable data files are stored here. This can include things like log files, MySQL, and other database files, web server data files, email inboxes, and much more.
-
