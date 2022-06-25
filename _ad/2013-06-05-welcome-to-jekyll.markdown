@@ -13,7 +13,7 @@ Jekyll also offers powerful support for code snippets:
 
 You could just use some HTML in your Markdown:
 
-<img src="/assets/photo/screenshot.png" alt="drawing" width="400"/>
+<img src="/assets/photo/csp.png" alt="drawing" width="400"/>
 
 {% highlight ruby %}
 def print_hi(name)
