@@ -109,7 +109,7 @@ h3 {
 
 /*** Structure ***/
 #page {
-	width: 700px;
+	width: 800px;
 	margin: 0 auto;
 	position: relative;
 }
@@ -135,7 +135,7 @@ h3 {
 }
 
 #content {
-	margin-left: 150px;
+	margin-left: 100px;
 	width: 900px;
 	margin: auto;
 }
@@ -144,9 +144,9 @@ h3 {
         
 	position: absolute;
 	text-align: right;
-	width: 190px;
+	width: 210px;
 	top: 0;
-	left: -290px;
+	left: -310px;
 }
 
 #sidebar li {
