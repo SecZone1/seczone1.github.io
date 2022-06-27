@@ -118,7 +118,8 @@ h3 {
         width: 190px;
 	text-align: left;
 	top: 0;
-	margin: auto ;
+	left: -240px;
+	position: absolute;
 }
 #header h1 {
 	font-size: 32px;
