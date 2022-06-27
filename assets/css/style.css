@@ -115,7 +115,7 @@ h3 {
 }
 
 #header {
-
+        width: 1000px;
 	text-align: right;
 	top: 0;
 	left: -240px;
