@@ -77,11 +77,11 @@ acronym, abbr {
 
 
 h1 {
-	font-size: 19px;
+	font-size: 25px;
 	margin: 0 0 10px 0;
 }
 h2 {
-	font-size: 17px;
+	font-size: 19px;
 	margin: 0 0 10px 0;
 }
 h3 {
@@ -144,9 +144,9 @@ h3 {
         
 	position: absolute;
 	text-align: right;
-	width: 160px;
+	width: 190px;
 	top: 0;
-	left: -240px;
+	left: -290px;
 }
 
 #sidebar li {
