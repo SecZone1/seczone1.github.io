@@ -15,9 +15,9 @@ Sec zone exists to advance public understanding of offensive and defensive infor
 
 
 # blog@SEC-Zone:~$ cat /etc/passwd
-```bash
-Musab:x:1000:1000:SEC-Zone:/home/Musab:/bin/zsh
-```
+
+> Musab:x:1000:1000:SEC-Zone:/home/Musab:/bin/zsh
+
 
 #  💻 Languages and Tools:
 ```bash
