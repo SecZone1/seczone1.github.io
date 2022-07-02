@@ -1,6 +1,5 @@
 ---
 layout: post
-title:  "Basic Linux Commands"
 date:   2021-01-05 17:06:25
 categories: [linux, PT]
 ---
