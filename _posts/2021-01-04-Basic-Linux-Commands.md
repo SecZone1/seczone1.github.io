@@ -5,7 +5,7 @@ categories: [linux]
 tags: [linux, Red Team , Blue Team]
 ---
 
-## FILE COMMANDS
+## File Command 
 
 
 - Is   =   directory listing   
@@ -29,7 +29,7 @@ tags: [linux, Red Team , Blue Team]
 - Mail -f file      =  output contents of file as it grows 
 
 
-## NETWORK COMMANDS
+## Network Commands
 
 
 - ping host   = ping host 'host'  
@@ -40,7 +40,14 @@ tags: [linux, Red Team , Blue Team]
 - wget -c file   =  continue stopped download   
 - wget -r url   =  recursively download files from url 
 
-## ssh COMMANDS
+## Searching
+
+- grep pattern files     =      search for pattern in files     
+- command |   grep pattern      =       search for pattern in output of the command         
+- locate file     =      search for files in all file system         
+
+
+## SSH Command
 
 
 - ssh user@host    =   connect to host      
@@ -48,7 +55,7 @@ tags: [linux, Red Team , Blue Team]
 - ssh -D port user@host    =  connect & use bind port     
 
 
-## SYSTEM INFO
+## System Info
 
 
 - date    |   show current date/time   |  
@@ -66,7 +73,7 @@ tags: [linux, Red Team , Blue Team]
 - free    =  show memory & swap usage     
 - which app   =  show which app will be run by defaul   
 
-## PROCESS MANAGEMENT
+## Process Management
 
 
 -  ps     =    display :currently active processes 
@@ -78,22 +85,17 @@ tags: [linux, Red Team , Blue Team]
 
 
 
-## FILE PERMISSIONS
+## File Permissions 
 
 -  chmod octal file      =    change  permission of file (4:read / 2:write / 1:execute) Order : owner/group/world      
 -  Eg:chmod755file     =    readwritefor owner, read execute for group/world     
 
 
 
-## COMPRESSION
+## Compression 
 
 - tar **cf** file.tar files     =     tar files intoi file.tar        
 - tar **xf** file.tar    =     untar into current directory  
 - tar **tf** file.tar   =   show contents of archive     
 
 
-## SEARCHING
-
-- grep pattern files     =      search for pattern in files     
-- command |   grep pattern      =       search for pattern in output of the command         
-- locate file     =      search for files in all file system         
