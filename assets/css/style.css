@@ -189,7 +189,7 @@ article img {
 }
 
 article .meta {
-	padding-top: 6px;
+	padding-top: 4px;
 	font-size: 0.85em;
 	font-style: italic;
 }
@@ -212,7 +212,7 @@ img.center {
 
 /*** Pagination ***/
 .postnavigation {
-	padding-top: 10px;
+	padding-top: 5px;
     text-align: center;
     font-size: 0.85em;
 }
