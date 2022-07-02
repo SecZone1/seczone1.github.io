@@ -1,7 +1,8 @@
 ---
 layout: post
 date:   2021-01-05 17:06:25
-categories: [linux, PT]
+categories: [linux]
+tags: [linux, Red Team , Blue Team]
 ---
 
 ## FILE COMMANDS
