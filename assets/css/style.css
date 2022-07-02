@@ -168,7 +168,7 @@ h3 {
 
 /*** Posts ***/
 article {
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 }
 
 article h1 {
@@ -212,7 +212,7 @@ img.center {
 
 /*** Pagination ***/
 .postnavigation {
-	padding-top: 5px;
+	padding-top: 10px;
     text-align: center;
     font-size: 0.85em;
 }
