@@ -20,15 +20,15 @@ Sec zone exists to advance public understanding of offensive and defensive infor
 
 
 #  💻 Languages and Tools:
-```bash
-- python
-- bash
-- burpsuite 
-- metasploit
-- splunk 
-- Nessus and acunetix
-- wireshark
-```
+
+> - python
+> - bash
+> - burpsuite 
+> - metasploit
+> - splunk 
+> - Nessus and acunetix
+> - wireshark
+
 
 
 
