@@ -41,9 +41,9 @@ order: 4
     <a href="https://www.microsoft.com/es-es/security/business/threat-protection/microsoft-365-defender" target="_blank"> <img src="https://img.icons8.com/fluency/48/000000/windows-defender.png"/> </a>
  <a href="https://code.visualstudio.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"/> </a>
     <a href="https://azure.microsoft.com/" target="_blank"> <img src="https://img.icons8.com/fluency/48/000000/azure-1.png"/> </a>
-    <a href="https://aws.amazon.com/" target="_blank"> <img src="https://img.icons8.com/color/48/FA5252/amazon-web-services.png"/></svg></a>
-    <a href="https://portswigger.net/" target="_blank"> <img src="https://img.icons8.com/ios-filled/50/FA5252/burp-suite.png"/></a>
-    <a href="https://www.splunk.com/" target="_blank"> <img src="https://img.icons8.com/color/48/FFFFFF/splunk.png"/> </a> 
+    <a href="https://aws.amazon.com/" target="_blank"> <img src="https://img.icons8.com/windows/48/FA5252/amazon-web-services.png"/></a>
+    <a href="https://portswigger.net/" target="_blank"> <img src="https://img.icons8.com/ios-filled/48/FA5252/burp-suite.png"/></a>
+    <a href="https://www.splunk.com/" target="_blank"> <img src="https://img.icons8.com/color/60/FA5252/splunk.png"/> </a> 
 </p>
 
 
