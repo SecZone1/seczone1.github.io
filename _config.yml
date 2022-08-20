@@ -1,0 +1,44 @@
+highlighter: rouge
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: 'highlight'
+  math_engine: MathJax
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+
+paginate: 7
+paginate_path: "page:num"
+layout: post
+permalink: /:categories/:title
+excerpt_separator: "[-----]"
+
+url: # Required: replace this with your domain
+name: Sec zone # Required: will be displayed on every page's header
+title: sec zone blog # Required: site's default title
+shout: # Required: **TWO** lines, will be displayed on page's header.
+description: "IT Security | Cyber Security junior Analyst | PenTester" # Required
+
+disqus:
+  comments: off #true # Global toggle on/off disqus comment
+  shortname: Sec-zone # Required if you use disqus. Repalce with your disqus shortname here
+
+google_analytics:
+  id: "G-QZMMHNCKD7" # Required if you use google analytics. Replace with your tracking id here
+
+collections: # Define post series here
+  book:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "post"
