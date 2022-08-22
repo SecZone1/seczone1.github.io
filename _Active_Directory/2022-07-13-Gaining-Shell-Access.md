@@ -7,7 +7,7 @@ excerpt: " "
 ---
 
 # Gaining Shell Access 
-** this done when you get credential (user and pass)**
+**this done when you get credential (user and pass)**
 
 ## Using [impacket](https://github.com/SecureAuthCorp/impacket)
 ```bash
@@ -50,4 +50,5 @@ run # run exploit
 ![Desktop View](/assets/img/AD_Lab/1 (79).png){: }
 
 - now we get shell access 
+
 ![Desktop View](/assets/img/AD_Lab/1 (80).png){: }
