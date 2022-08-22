@@ -1,5 +1,5 @@
 ---
-title:  "LLMNR Poisoning Attack  "
+title:  LLMNR & NBT-NS Poisoning  Attack 
 layout: post
 category: Active-Directory
 tags: [AD, Windows-server]
