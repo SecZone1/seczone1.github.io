@@ -6,7 +6,7 @@ tags: [AD, Windows-server]
 excerpt: " "
 ---
 
-# LLMNR Poisoning Overview
+# LLMNR  & NBT-NS Poisoning Overview
 LLMNR stand for **Link-Local Multicast Name Resolution**  and NetBIOS Name Service (**NBT-NS)** are two name services used by windows for resolving hostnames to IP addresses when a DNS request fails in a network.
 
 In a network, if a machine tries to resolve a particular host and DNS fails to do so, the machine will communicate with other machines in the network using the LLMNR and ask if anyone knows the particular hosts.
@@ -49,7 +49,7 @@ NTLMv2 hashes cannot be used in a Pass-the-Hash attack (which uses standard NTLM
 
 > hashcat -m 5600 hashes.txt rockyou.txt  
 - 5600 is modal called 'netntlmv1' network protocol  
-- used help hashcat --hel  
+- used help hashcat --help
 - rockyou is wordlist can download it seclist github
 
 
