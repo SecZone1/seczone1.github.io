@@ -1,5 +1,5 @@
 ---
-title: "Setting Up the PFSense and Active Directory "
+title: "Setting Up Domain Controller "
 layout: post
 category: Active-Directory
 tags: [AD, Windows-server]
