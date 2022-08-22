@@ -64,16 +64,19 @@ lastly, All we have left to do is join the workstation to our Active Directory d
 ## **setting up DNS**
 -  edit resolve.conf file -> **gedit /etc/resolve.conf** -> add domain ip
 
+
 ![Desktop View](/assets/img/AD_Lab/1 (55).png){: }
 
 - Install the following packages:
 
-```console
+```bash
 sudo apt install sssd-ad sssd-tools realmd adcli
 ```
+
 -  Join the domain
 We will use the `realm` command, from the `realmd` package, to join the domain and create the sssd configuration.
 Let’s verify the domain is discoverable via DNS:
+
 ```bash
 sudo realm -v discover homelab.local
 ```
@@ -82,6 +85,7 @@ sudo realm -v discover homelab.local
 
 ## **join Flash user to DC**
 - Now let’s join the domain -> add admin credential 
+
 ```bash
 sudo realm join -U Administrator Homellab.local
 ```
@@ -89,11 +93,12 @@ sudo realm join -U Administrator Homellab.local
 ![Desktop View](/assets/img/AD_Lab/1 (59).png){: }
 
 -  Login as flash user -> done
+
+
 ```bash
 sudo login
 -> flash@homelab.local
 -> password
-
 ```
 
 ![Desktop View](/assets/img/AD_Lab/1 (60).png){: }
