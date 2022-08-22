@@ -28,7 +28,7 @@ and learn Active Directory security is to understand the attacking techniques by
 ![Desktop View](/assets/img/AD_Lab/1 (2).png){: }
 
 The lab consists of five lab machines, including the pfSense (Router) , Domain Controller and three client machines. And Scenario : 
--  Install PfSense (Router) with Two Network WAN  connect to ISP and LAN internal network . The lab environment network’s subnet address is set to 192.168.1.0/24
+-  Install PfSense (Router) with Two Network WAN  connect to ISP and LAN internal network . The lab network subnet address 192.168.1.0/24
 -  Install Windows Server 2019 and config DC [Homelab.Local] 
 -  Create three Users. 
 -  join the machines to DC  
