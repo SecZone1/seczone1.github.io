@@ -39,9 +39,9 @@ Download Script ->  **[vulnerable-AD](https://github.com/WazeHell/vulnerable-AD)
 ![Desktop View](/assets/img/AD_Lab/p.png){: }
 
 -  run this command 
+
 ```bash
 # access script dir -> I Download script at desktop
-
 . .\vulnad.ps1
 Invoke-VulnAD -UsersLimit 100 -DomainName "homelab.local"
 
@@ -51,6 +51,7 @@ Replace Homelab.local  with the name of your Domain.
 - After that you should see the following output:
 
 ![Desktop View](/assets/img/AD_Lab/Pasted image 20220821052304.png){: }
+
 ![Desktop View](/assets/img/AD_Lab/Pasted image 20220821052347.png){: }
 
 
