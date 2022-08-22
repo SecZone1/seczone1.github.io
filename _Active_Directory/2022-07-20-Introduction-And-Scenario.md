@@ -30,12 +30,12 @@ and learn Active Directory security is to understand the attacking techniques by
 The lab consists of five lab machines, including the pfSense (Router) , Domain Controller and three client machines. And Scenario : 
 -  Install PfSense (Router) with Two Network WAN  connect to ISP and LAN internal network . The lab environment network’s subnet address is set to 192.168.1.0/24
 -  Install Windows Server 2019 and config DC [Homelab.Local] 
--  Create User three Users. 
+-  Create three Users. 
 -  join the machines to DC  
 -  run [vulnerable-AD](https://github.com/WazeHell/vulnerable-AD) script to make DC vulnerable 
 
 ## Requirements  
- -  PfSense as router , windows server 2019 ,windows 7 , windows 10  , ubuntu Linux
+ - PfSense as router , windows server 2019 ,windows 7 , windows 10 and ubuntu Linux
 -  Recommended at least 16GB RAM.
 -  Oracle VM virtualbox 
 
@@ -43,5 +43,5 @@ The lab consists of five lab machines, including the pfSense (Router) , Domain C
 - [PfSense](https://mirror.mahanserver.net/PfSense/2.4.5/pfSense-CE-2.4.5-RELEASE-p1-amd64.iso.gz.sha256)
 - [windows server 2019](https://getintopc.com/softwares/operating-systems/windows-server-2019-standard-may-2022-free-download/)
 - [ubuntu](https://ubuntu.com/download/desktop/thank-you?version=22.04&architecture=amd64)
--  [windows 7](https://getintopc.com/softwares/operating-systems/windows-7-may-2022-free-download-1792221/) 
--  [windows 10](https://getintopc.com/softwares/operating-systems/windows-10-pro-may-2022-free-download-1433484/) 
+- [windows 7](https://getintopc.com/softwares/operating-systems/windows-7-may-2022-free-download-1792221/) 
+- [windows 10](https://getintopc.com/softwares/operating-systems/windows-10-pro-may-2022-free-download-1433484/) 
