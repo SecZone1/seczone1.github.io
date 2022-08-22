@@ -1,5 +1,5 @@
 ---
-title: "Introduction And Scenario Of  of create Active Directory Lab "
+title: "Introduction And Scenario of create Active Directory Lab "
 layout: post
 category: Active-Directory
 tags: [AD, Windows-server]
@@ -14,7 +14,7 @@ Active Directory is a directory service provided by Microsoft that is commonly i
 ## Active Directory Attacks and Defence  
 Microsoft’s Active Directory remains a primary directory service solution within organisations’ networks. It is vital for companies to understand and identify potential security weaknesses of Active Directory, as it remains a major pivot point utilized by cybercriminals to compromise organisations worldwide, including governments and companies. In order to detect security threats and remediate vulnerabilities, understanding the prevalent Active Directory attack techniques and threats they pose to organisations is critical. In this section of the introduction, a brief background into the attacks against Active Directory environments is provided. Typically, a high-skilled and well-organized Active Directory attack consists of multiple phases as it can be seen in the figure below:
 
-![[AD_Lab/1 (1).png]]
+![[/AD/AD_Lab/1 (1).png]]
 
 As demonstrated in the figure above, phishing is a key phase in an Active Directory attack that may lead to a victim providing sensitive information to the attacker or installing malicious software. That way, a perpetrator can gain a foothold inside of an organisation’s internal network and carry out further attacks.  
 Following that, an attacker performs enumeration to increase the attack surface by discovering valuable information about the deployed environment, and potentially retrieve sensitive user data. As credential theft is carried out, it may be used to carry out exploitation attacks against the authentication and authorization systems inside the network. Additionally, a perpetrator may discover implemented vulnerable software and perform exploitation attacks against it to gain further access within the network. As an attacker gains access to any accessible entity, such as a low-privileged user, they can perform privilege escalation techniques in order to move laterally and vertically across the Active Directory network to gain access to valuable assets, such as confidential data, high-privileged accounts and more. As a final stage of the attack, a malicious insider may perform various techniques in order to obtain persistence within the network.  
@@ -24,7 +24,7 @@ and learn Active Directory security is to understand the attacking techniques by
 
 
 # The Scenario  
-![[AD_Lab/1 (2).png]]
+![[/AD/AD_Lab/1 (2).png]]
 
 The lab consists of five lab machines, including the pfSense (Router) , Domain Controller and three client machines. And Scenario : 
 -  Install PfSense (Router) with Two Network WAN  connect to ISP and LAN internal network . The lab environment network’s subnet address is set to 192.168.1.0/24
