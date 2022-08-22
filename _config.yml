@@ -34,7 +34,7 @@ google_analytics:
   id: "G-QZMMHNCKD7" # Required if you use google analytics. Replace with your tracking id here
 
 collections: # Define post series here
-  AD:
+  Active Directory:
     output: true
 
 defaults:
