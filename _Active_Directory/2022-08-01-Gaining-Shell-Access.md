@@ -1,3 +1,11 @@
+---
+title: " Gaining Shell Access  "
+layout: post
+category: Active-Directory
+tags: [AD, Windows-server]
+excerpt: " "
+---
+
 # Gaining Shell Access 
 ** this done when you get credential (user and pass)**
 
