@@ -68,6 +68,7 @@ Request a share that does not exist using an admin account. Notice how the scrip
 
 **We can then takes these hashes and crack them or we can even attempt a pass-the-hash attack and attempt to gain a shell with the NTLMv2 hash on a different machine on the network.**
 
+- after take hash can perform [pass-the-hash ](https://seczone1.github.io/Active_Directory/2022-07-10-Pass-the-Hash) attack 
 
 ### Get Interactive Shell
 
