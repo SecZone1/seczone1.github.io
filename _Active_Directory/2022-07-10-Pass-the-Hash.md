@@ -1,5 +1,5 @@
 ---
-title: "Introduction And Scenario of create Active Directory Lab "
+title: "Pass the Hash "
 layout: post
 category: Active-Directory
 tags: [AD, Windows-server]
