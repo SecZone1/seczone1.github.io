@@ -1,5 +1,5 @@
 ---
-title: "Enumeration Using PowerView Powershell script"
+title: "Enumeration Using PowerView script"
 layout: post
 category: Active-Directory
 tags: [AD, Windows-server]
