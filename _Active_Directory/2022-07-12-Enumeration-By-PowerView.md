@@ -8,6 +8,7 @@ excerpt: " "
 
 
 # PowerView Overview 
+**you need user credentials to perform PowerView Enumeration **
 
 PowerView is a PowerShell script which was developed by [Will Schroeder](https://twitter.com/harmj0y) and is part of [PowerSploit](https://github.com/PowerShellMafia/PowerSploit) framework and Empire. The script relies solely on PowerShell and WMI (Windows Management Instrumentation) queries. 
 
@@ -22,6 +23,8 @@ PowerView is a PowerShell script which was developed by [Will Schroeder](https:
 - To get shell  will use [evil-winrm](github.com/Hackplayers/evil-winrm) tool
 
 ```bash
+
+#ruby evil-winrm.rb -i DC-IP -u Username -p Password
 
 ruby evil-winrm.rb -i 192.168.1.2 -u superman -p 'Password123!'
 
