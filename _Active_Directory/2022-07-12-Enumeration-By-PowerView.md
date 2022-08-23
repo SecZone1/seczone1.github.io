@@ -10,7 +10,7 @@ excerpt: " "
 # PowerView Overview 
 **you need user credentials to perform PowerView Enumeration **
 
-PowerView is a PowerShell script which was developed by [Will Schroeder](https://twitter.com/harmj0y) and is part of [PowerSploit](https://github.com/PowerShellMafia/PowerSploit) framework and Empire. The script relies solely on PowerShell and WMI (Windows Management Instrumentation) queries. 
+PowerView is a PowerShell script which was developed by [Will Schroeder](https://twitter.com/harmj0y) and is part of [PowerSploit](https://github.com/PowerShellMafia/PowerSploit) framework and Empire. The script relies solely on PowerShell and WMI (Windows Management Instrumentation) queries.A set of PowerShell functions that can be used to enumerate ActiveDirectory. 
 
 # Enumeration with PowerView
 ## Get Shell and Upload PowerView script
@@ -216,3 +216,6 @@ ls # to see the script
   Test-AdminAccess
   ```
 
+# reference
+
+- https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet
